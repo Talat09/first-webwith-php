@@ -37,16 +37,53 @@
     echo "The value of division Two Number is: ";
     echo $variable1/$variable2;
     // Assignment operators
-    // comparison operators
+    $newVar = $variable1;
+    $newVar += 1;
+    $newVar -= 1;
+    $newVar *= 1;
+    $newVar /= 1;
+    //for new line
+    echo "<br>";
+    echo " The value of new Variable is: ";
+    echo $newVar;
+    // comparison operators return boolean
+    echo "<br>";
+    echo "<h1>Comparison Operator</h1>";
+    //equal to
+    echo " The value of 1==4 is :";
+    echo var_dump(1==4);
+    echo "<br>";
+    //Not equal to
+    echo " The value of 1!=4 is :";
+    echo var_dump(1!=4);
+    echo "<br>";
+    //greater than equal to
+    echo " The value of 1>=4 is :";
+    echo var_dump(1>=4);
+    echo "<br>";
+    //less than equal to
+    echo " The value of 1<=4 is :";
+    echo var_dump(1<=4);
+    echo "<br>";
+    echo "<h1>increment / decrement operator</h1>";
     // increment / decrement operator
+    $number = 10;
+    $number++;
+    echo "<br>";
+    echo "Double ++ sign after variable is: $number";
+    $number--;
+    echo "<br>";
+    echo "Double -- sign after variable is: $number";
+    ++$number;
+    echo "<br>";
+    echo "Double ++ sign before variable is: $number";
+    --$number;
+    echo "<br>";
+    echo "Double -- sign before variable is: $number";
     // Logical operators
        
         ?>
-        <?php
-         //for new line
-    echo "<br>";
-        echo "Hello World and this is printed using php again";
-        ?>
+        
     </div>
 </body>
 </html>

@@ -81,7 +81,35 @@
     echo "<br>";
     echo "Double -- sign before variable is: $number";
     // Logical operators
-       
+    echo "<br>";
+    echo "<h1>Logical operators</h1>";
+    // and ( &&)
+    // or ( ||)
+    // xor
+    // not (!)
+    echo "<br>";
+    // $var3=(true and true);//true
+    // $var3=(true and false);//false
+    // $var3=(false and true); //false
+    $var3=(false and false); //false
+    echo "The value of var3 is: ";
+    echo var_dump($var3);
+    echo "<br>";
+    //or operator
+    $var4=(true or true);//true
+    // $var4=(true or false);//true
+    // $var4=(false or true); //true
+    // $var4=(false or false); //false
+    echo "The value of var4 is: ";
+    echo var_dump($var4);
+    //xor operator
+    echo "<br>";
+    // $var5=(true xor true);//false
+    // $var5=(true xor false);//true
+    // $var5=(false xor true); //true
+    $var5=(false xor false); //false
+    echo "The value of var5 is: ";
+    echo var_dump($var5);
         ?>
         
     </div>
